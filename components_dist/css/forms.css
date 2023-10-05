@@ -1,0 +1,664 @@
+.osc-form h2 {
+  margin: 20px 0;
+  padding: 0;
+  font-size: 29px;
+}
+.osc-form .osc-form-field {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-form .osc-form-field h3 {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 24px;
+}
+.osc-form .osc-form-field .osc-form-info,
+.osc-form .osc-form-field .osc-form-warning,
+.osc-form .osc-form-field .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-form .osc-form-field .osc-form-description {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.osc-form .osc-html-editor .osc-html-editor-content {
+  border: solid 1px #434343;
+  padding: 15px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons {
+  margin-bottom: 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  padding: 5px;
+  border: solid 1px #434343;
+  background-color: #eee;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-bold {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-bold.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-italic {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-italic.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-insertunorderedlist {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-insertunorderedlist.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-createlink {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-createlink.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-image-upload {
+  background-color: green;
+}
+.osc-form .osc-input-with-counter {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-form .osc-input-with-counter input,
+.osc-form .osc-input-with-counter textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info,
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info {
+  margin-left: 30px;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-error {
+  color: #ea1d25;
+}
+.osc-form .osc-input-with-counter .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-form .osc-radios .osc-radio-container {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.osc-form .osc-radios .osc-radio-container h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 1em !important;
+  line-height: 1em !important;
+  font-weight: bold !important;
+}
+.osc-form .osc-radios .osc-radio-container input[type="radio"] {
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+.osc-form .osc-radios .osc-radio-container .osc-radio-input {
+  position: relative;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border: solid 1px #767676;
+  border-radius: 12px;
+  background-color: white;
+}
+.osc-form .osc-radios .osc-radio-container .osc-radio-input.osc-radio-input-checked:after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 0px;
+  height: 0px;
+  border: solid 9px black;
+  border-radius: 9px;
+  content: '';
+}
+.osc-form .osc-radios .osc-radio-container .osc-radio-text {
+  float: left;
+  width: calc(100% - 37px);
+  margin-top: 3px;
+  line-height: 1.38;
+}
+.osc-form .osc-select select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+@media only screen and (max-width: 700px) {
+  .osc-form .osc-select select {
+    width: 100%;
+  }
+}
+.osc-form .osc-slider {
+  /* padding: 30px; */
+  position: relative;
+  height: 44px;
+  cursor: pointer;
+  /* For debugging */
+  /* border: solid 1px green; */
+  /* Slider track styling in background */
+  /* Styling of handle, based on https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 44px;
+  position: absolute;
+  margin: 0;
+}
+.osc-form .osc-slider .osc-slider-track-container {
+  position: absolute;
+  height: 42px;
+  left: 0;
+  right: 0;
+  /* pointer-events: none; */
+  /* For debugging */
+  /* border: solid 1px purple; */
+}
+.osc-form .osc-slider .osc-slider-track-container > div {
+  position: absolute;
+}
+.osc-form .osc-slider .osc-slider-track-dot-start {
+  width: 22px;
+  height: 22px;
+  background-color: #004699;
+  border-radius: 11px;
+}
+.osc-form .osc-slider .osc-slider-track-dot-end {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+.osc-form .osc-slider .osc-slider-track-dot-center {
+  margin: 11px auto 11px auto;
+  left: 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track-dot-left {
+  margin: 11px 0 11px 11px;
+  left: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+}
+.osc-form .osc-slider .osc-slider-track-dot-right {
+  margin: 11px 11px 11px 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track {
+  height: 2px;
+  left: 22px;
+  right: 22px;
+  /* width: 100%; */
+  background-color: #004699;
+  margin: 21px 0 21px 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress-container {
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  top: 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress {
+  height: 10px;
+  width: 50%;
+  background-color: #004699;
+  margin: 17px 0 17px 0;
+  left: 50%;
+  position: absolute;
+  transform-origin: left;
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 48px;
+  padding: 0;
+  top: -3px;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-lower {
+  background: transparent;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-upper {
+  background: transparent;
+}
+.osc-form .osc-slider input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+.osc-form .osc-slider input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  -webkit-appearance: none;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  box-sizing: border-box;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+.osc-form .osc-textinput input {
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #767676;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+.osc-form .osc-input-with-counter {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-form .osc-input-with-counter input,
+.osc-form .osc-input-with-counter textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info,
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info {
+  margin-left: 30px;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-error {
+  color: #ea1d25;
+}
+.osc-form .osc-input-with-counter .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-form .osc-select select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+@media only screen and (max-width: 700px) {
+  .osc-form .osc-select select {
+    width: 100%;
+  }
+}
+.osc-form .osc-slider {
+  /* padding: 30px; */
+  position: relative;
+  height: 44px;
+  cursor: pointer;
+  /* For debugging */
+  /* border: solid 1px green; */
+  /* Slider track styling in background */
+  /* Styling of handle, based on https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 44px;
+  position: absolute;
+  margin: 0;
+}
+.osc-form .osc-slider .osc-slider-track-container {
+  position: absolute;
+  height: 42px;
+  left: 0;
+  right: 0;
+  /* pointer-events: none; */
+  /* For debugging */
+  /* border: solid 1px purple; */
+}
+.osc-form .osc-slider .osc-slider-track-container > div {
+  position: absolute;
+}
+.osc-form .osc-slider .osc-slider-track-dot-start {
+  width: 22px;
+  height: 22px;
+  background-color: #004699;
+  border-radius: 11px;
+}
+.osc-form .osc-slider .osc-slider-track-dot-end {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+.osc-form .osc-slider .osc-slider-track-dot-center {
+  margin: 11px auto 11px auto;
+  left: 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track-dot-left {
+  margin: 11px 0 11px 11px;
+  left: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+}
+.osc-form .osc-slider .osc-slider-track-dot-right {
+  margin: 11px 11px 11px 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track {
+  height: 2px;
+  left: 22px;
+  right: 22px;
+  /* width: 100%; */
+  background-color: #004699;
+  margin: 21px 0 21px 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress-container {
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  top: 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress {
+  height: 10px;
+  width: 50%;
+  background-color: #004699;
+  margin: 17px 0 17px 0;
+  left: 50%;
+  position: absolute;
+  transform-origin: left;
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 48px;
+  padding: 0;
+  top: -3px;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-lower {
+  background: transparent;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-upper {
+  background: transparent;
+}
+.osc-form .osc-slider input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+.osc-form .osc-slider input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  -webkit-appearance: none;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  box-sizing: border-box;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+.osc-form .osc-textarea textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-form .osc-form-info {
+  margin-left: 30px;
+}
+.osc-form .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-form .osc-form-warning,
+.osc-form .osc-form-error,
+.osc-form .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-form .osc-form-warning,
+.osc-form .osc-form-error {
+  color: #ea1d25;
+}
+
+
+/*# sourceMappingURL=forms.css.map*/

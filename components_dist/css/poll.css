@@ -1,0 +1,1817 @@
+.osc-align-right-container {
+  text-align: right;
+}
+.osc-margin-right {
+  margin-right: 15px;
+}
+.osc-opacity-25 {
+  opacity: 0.25;
+}
+.osc-opacity-50 {
+  opacity: 0.5;
+}
+.osc-opacity-65 {
+  opacity: 0.65;
+}
+.osc-hidden {
+  display: none;
+}
+.osc-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-color: #c4c4c4;
+  background-color: #c4c4c4;
+}
+.osc-button:active,
+.osc-button:focus {
+  outline: 0;
+}
+.osc-button.osc-disabled {
+  opacity: 0.3;
+}
+.osc-button:hover {
+  text-decoration: underline;
+  border-color: #aaa;
+  background-color: #aaa;
+}
+.osc-close-button-black {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/close-button-black.svg);
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 0 none;
+  cursor: pointer;
+  z-index: 20;
+}
+.osc-close-button-black:active,
+.osc-close-button-black:focus {
+  outline: 0;
+}
+.osc-gray-text {
+  color: #9a9a9a;
+}
+.osc-gray-block {
+  padding: 30px;
+  background-color: #f6f7f7;
+}
+.osc-not-logged-in-button {
+  background-position: center left 10px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-image: url(../images/inloggen.svg);
+  padding-left: 40px;
+}
+.osc-default-select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+.osc-default-input {
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+.osc-clear-both {
+  clear: both;
+}
+.osc-number-button {
+  display: block;
+  width: 250px;
+  font-size: 0px;
+  font-weight: 600;
+  text-decoration: none;
+  height: 43px;
+  margin-right: 2px;
+}
+.osc-number-button .osc-number-plates {
+  padding: 7px 6px 7px 10px;
+  font-size: 0px;
+  margin-right: 0px;
+  float: left;
+}
+.osc-number-button .osc-number-plate {
+  margin-right: 4px;
+  font-size: 18px;
+  background: #e8e8e8;
+  background: linear-gradient(#e8e8e8 50%, #ffffff 50%);
+  padding: 0;
+  display: inline-block;
+  height: 29px;
+  line-height: 31px;
+  width: 20px;
+  text-align: center;
+  color: black;
+  border-radius: 3px;
+  font-weight: 800;
+  vertical-align: middle;
+}
+.osc-number-button .osc-number-button-text {
+  position: relative;
+  display: inline-block;
+  padding: 10px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  cursor: pointer;
+  display: block;
+  float: left;
+  width: 118px;
+  height: 43px;
+  margin-left: 2px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.osc-number-button .osc-number-button-text:active,
+.osc-number-button .osc-number-button-text:focus {
+  outline: 0;
+}
+.osc-number-button .osc-number-button-text.osc-disabled {
+  opacity: 0.3;
+}
+.osc-number-button .osc-number-button-text:hover {
+  text-decoration: underline;
+}
+.osc-editbutton,
+.osc-idea-details-editbutton {
+  display: block;
+  position: relative;
+  appearance: none;
+  width: 100%;
+  height: 46px;
+  margin-top: 20px;
+  margin-left: 0;
+  padding-left: 46px;
+  padding-right: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 0;
+  border-right: 2px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
+  background-color: whitesmoke;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  background-size: 36px 36px;
+  color: black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.osc-editbutton:after,
+.osc-idea-details-editbutton:after {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 34px;
+  height: 34px;
+  background-color: black;
+  content: '';
+}
+.osc-editbutton.osc-delete:after,
+.osc-idea-details-editbutton.osc-delete:after {
+  background-image: url(../images/delete-button.svg);
+}
+.osc-editbutton.osc-edit:after,
+.osc-idea-details-editbutton.osc-edit:after {
+  background-image: url(../images/edit-button.svg);
+}
+.osc-alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.osc-alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.osc-sharebuttons ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.osc-sharebuttons ul li {
+  display: inline;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  .osc-sharebuttons ul li.osc-desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .osc-sharebuttons ul li.osc-mobile {
+    display: none;
+  }
+}
+.osc-sharebuttons ul li a {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  display: block;
+  float: left;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 3px 0 0;
+  height: 30px;
+  width: 30px;
+}
+.osc-sharebuttons ul li a.osc-facebook {
+  background-image: url(../images/share-facebook.svg);
+}
+.osc-sharebuttons ul li a.osc-facebook:hover {
+  background-image: url(../images/share-facebook-hover.svg);
+}
+.osc-sharebuttons ul li a.osc-twitter {
+  background-image: url(../images/share-twitter.svg);
+}
+.osc-sharebuttons ul li a.osc-twitter:hover {
+  background-image: url(../images/share-twitter-hover.svg);
+}
+.osc-sharebuttons ul li a.osc-email {
+  background-image: url(../images/share-email.svg);
+}
+.osc-sharebuttons ul li a.osc-email:hover {
+  background-image: url(../images/share-email-hover.svg);
+}
+.osc-sharebuttons ul li a.osc-whatsapp {
+  background-image: url(../images/share-whatsapp.svg);
+}
+.osc-sharebuttons ul li a.osc-whatsapp:hover {
+  background-image: url(../images/share-whatsapp-hover.svg);
+}
+.osc-tabs {
+  width: 100%;
+  height: 44px;
+  margin-top: 40px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.osc-tabs .osc-tab {
+  float: left;
+  overflow: hidden;
+  height: 44px;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 44px;
+  cursor: pointer;
+}
+.osc-tabs .osc-tab:hover {
+  border-bottom: 6px solid black;
+}
+.osc-tabs .osc-tab.osc-active {
+  border-bottom: 6px solid #ec0000;
+}
+.osc-component {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+.osc-component h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.25;
+}
+.osc-component a {
+  color: #164995;
+  text-decoration: none;
+}
+.osc-component a:hover {
+  text-decoration: underline;
+}
+.osc-poll {
+  width: 100%;
+}
+.osc-poll .osc-form h2 {
+  margin: 20px 0;
+  padding: 0;
+  font-size: 29px;
+}
+.osc-poll .osc-form .osc-form-field {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-poll .osc-form .osc-form-field h3 {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 24px;
+}
+.osc-poll .osc-form .osc-form-field .osc-form-info,
+.osc-poll .osc-form .osc-form-field .osc-form-warning,
+.osc-poll .osc-form .osc-form-field .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-poll .osc-form .osc-form-field .osc-form-description {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-content {
+  border: solid 1px #434343;
+  padding: 15px;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-buttons {
+  margin-bottom: 5px;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  padding: 5px;
+  border: solid 1px #434343;
+  background-color: #eee;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-bold {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-bold.svg);
+  background-position: 5px 5px;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-italic {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-italic.svg);
+  background-position: 5px 5px;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-insertunorderedlist {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-insertunorderedlist.svg);
+  background-position: 5px 5px;
+}
+.osc-poll .osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-createlink {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-createlink.svg);
+  background-position: 5px 5px;
+}
+.osc-poll .osc-form .osc-image-upload {
+  background-color: green;
+}
+.osc-poll .osc-form .osc-input-with-counter {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-poll .osc-form .osc-input-with-counter input,
+.osc-poll .osc-form .osc-input-with-counter textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-info,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-warning,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-info {
+  margin-left: 30px;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-warning,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-warning,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-error {
+  color: #ea1d25;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-poll .osc-form .osc-radios .osc-radio-container {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.osc-poll .osc-form .osc-radios .osc-radio-container h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 1em !important;
+  line-height: 1em !important;
+  font-weight: bold !important;
+}
+.osc-poll .osc-form .osc-radios .osc-radio-container input[type="radio"] {
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+.osc-poll .osc-form .osc-radios .osc-radio-container .osc-radio-input {
+  position: relative;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border: solid 1px #767676;
+  border-radius: 12px;
+  background-color: white;
+}
+.osc-poll .osc-form .osc-radios .osc-radio-container .osc-radio-input.osc-radio-input-checked:after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 0px;
+  height: 0px;
+  border: solid 9px black;
+  border-radius: 9px;
+  content: '';
+}
+.osc-poll .osc-form .osc-radios .osc-radio-container .osc-radio-text {
+  float: left;
+  width: calc(100% - 37px);
+  margin-top: 3px;
+  line-height: 1.38;
+}
+.osc-poll .osc-form .osc-select select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+@media only screen and (max-width: 700px) {
+  .osc-poll .osc-form .osc-select select {
+    width: 100%;
+  }
+}
+.osc-poll .osc-form .osc-slider {
+  /* padding: 30px; */
+  position: relative;
+  height: 44px;
+  cursor: pointer;
+  /* For debugging */
+  /* border: solid 1px green; */
+  /* Slider track styling in background */
+  /* Styling of handle, based on https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range {
+  height: 44px;
+  position: absolute;
+  margin: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-container {
+  position: absolute;
+  height: 42px;
+  left: 0;
+  right: 0;
+  /* pointer-events: none; */
+  /* For debugging */
+  /* border: solid 1px purple; */
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-container > div {
+  position: absolute;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-start {
+  width: 22px;
+  height: 22px;
+  background-color: #004699;
+  border-radius: 11px;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-end {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-center {
+  margin: 11px auto 11px auto;
+  left: 0;
+  right: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-left {
+  margin: 11px 0 11px 11px;
+  left: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-right {
+  margin: 11px 11px 11px 0;
+  right: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track {
+  height: 2px;
+  left: 22px;
+  right: 22px;
+  /* width: 100%; */
+  background-color: #004699;
+  margin: 21px 0 21px 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-progress-container {
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  top: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-progress {
+  height: 10px;
+  width: 50%;
+  background-color: #004699;
+  margin: 17px 0 17px 0;
+  left: 50%;
+  position: absolute;
+  transform-origin: left;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range {
+  height: 48px;
+  padding: 0;
+  top: -3px;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range::-ms-fill-lower {
+  background: transparent;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range::-ms-fill-upper {
+  background: transparent;
+}
+.osc-poll .osc-form .osc-slider input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+.osc-poll .osc-form .osc-slider input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  -webkit-appearance: none;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input.osc-slider-untouched[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  box-sizing: border-box;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input.osc-slider-untouched[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input.osc-slider-untouched[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-moz-range-track {
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-ms-track {
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+.osc-poll .osc-form .osc-textinput input {
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #767676;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+.osc-poll .osc-form .osc-input-with-counter {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-poll .osc-form .osc-input-with-counter input,
+.osc-poll .osc-form .osc-input-with-counter textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-info,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-warning,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-info {
+  margin-left: 30px;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-warning,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-warning,
+.osc-poll .osc-form .osc-input-with-counter .osc-form-error {
+  color: #ea1d25;
+}
+.osc-poll .osc-form .osc-input-with-counter .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-poll .osc-form .osc-select select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+@media only screen and (max-width: 700px) {
+  .osc-poll .osc-form .osc-select select {
+    width: 100%;
+  }
+}
+.osc-poll .osc-form .osc-slider {
+  /* padding: 30px; */
+  position: relative;
+  height: 44px;
+  cursor: pointer;
+  /* For debugging */
+  /* border: solid 1px green; */
+  /* Slider track styling in background */
+  /* Styling of handle, based on https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range {
+  height: 44px;
+  position: absolute;
+  margin: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-container {
+  position: absolute;
+  height: 42px;
+  left: 0;
+  right: 0;
+  /* pointer-events: none; */
+  /* For debugging */
+  /* border: solid 1px purple; */
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-container > div {
+  position: absolute;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-start {
+  width: 22px;
+  height: 22px;
+  background-color: #004699;
+  border-radius: 11px;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-end {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-center {
+  margin: 11px auto 11px auto;
+  left: 0;
+  right: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-left {
+  margin: 11px 0 11px 11px;
+  left: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-dot-right {
+  margin: 11px 11px 11px 0;
+  right: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track {
+  height: 2px;
+  left: 22px;
+  right: 22px;
+  /* width: 100%; */
+  background-color: #004699;
+  margin: 21px 0 21px 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-progress-container {
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  top: 0;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-track-progress {
+  height: 10px;
+  width: 50%;
+  background-color: #004699;
+  margin: 17px 0 17px 0;
+  left: 50%;
+  position: absolute;
+  transform-origin: left;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range {
+  height: 48px;
+  padding: 0;
+  top: -3px;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range::-ms-fill-lower {
+  background: transparent;
+}
+.osc-poll .osc-form .osc-slider .osc-slider-input-range::-ms-fill-upper {
+  background: transparent;
+}
+.osc-poll .osc-form .osc-slider input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+.osc-poll .osc-form .osc-slider input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  -webkit-appearance: none;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input.osc-slider-untouched[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  box-sizing: border-box;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input.osc-slider-untouched[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-poll .osc-form .osc-slider input.osc-slider-untouched[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-moz-range-track {
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-ms-track {
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+.osc-poll .osc-form .osc-textarea textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-poll .osc-form .osc-form-info {
+  margin-left: 30px;
+}
+.osc-poll .osc-form .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-poll .osc-form .osc-form-warning,
+.osc-poll .osc-form .osc-form-error,
+.osc-poll .osc-form .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-poll .osc-form .osc-form-warning,
+.osc-poll .osc-form .osc-form-error {
+  color: #ea1d25;
+}
+.osc-poll .osc-form .osc-add-choice-button {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.osc-poll .osc-form .osc-button-blue {
+  position: relative;
+  display: inline-block;
+  padding: 10px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+  border-color: #164995;
+  background-color: #164995;
+}
+.osc-poll .osc-form .osc-button-blue:active,
+.osc-poll .osc-form .osc-button-blue:focus {
+  outline: 0;
+}
+.osc-poll .osc-form .osc-button-blue.osc-disabled {
+  opacity: 0.3;
+}
+.osc-poll .osc-form .osc-button-blue:hover {
+  text-decoration: underline;
+  border-color: #003066;
+  background-color: #003066;
+}
+.osc-poll .osc-form .osc-button-blue.osc-not-logged-in-button {
+  background-position: center left 10px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-image: url(../images/inloggen.svg);
+  padding-left: 40px;
+}
+.osc-poll .osc-form .osc-button-blue.osc-margin-left {
+  margin-left: 20px;
+}
+.osc-poll .osc-form .osc-button-blue.osc-not-logged-in-button {
+  background-position: center left 10px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-image: url(../images/inloggen.svg);
+  padding-left: 40px;
+}
+.osc-poll h4 {
+  margin: 0;
+  font-size: 1em;
+}
+.osc-poll .osc-button-blue {
+  position: relative;
+  display: inline-block;
+  padding: 10px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+  border-color: #164995;
+  background-color: #164995;
+}
+.osc-poll .osc-button-blue:active,
+.osc-poll .osc-button-blue:focus {
+  outline: 0;
+}
+.osc-poll .osc-button-blue.osc-disabled {
+  opacity: 0.3;
+}
+.osc-poll .osc-button-blue:hover {
+  text-decoration: underline;
+  border-color: #003066;
+  background-color: #003066;
+}
+.osc-poll .osc-button-blue.osc-not-logged-in-button {
+  background-position: center left 10px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-image: url(../images/inloggen.svg);
+  padding-left: 40px;
+}
+.osc-poll .osc-show-question-button,
+.osc-poll .osc-show-result-button {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.osc-poll .osc-show-question-button {
+  margin-left: 0px;
+}
+.osc-poll .osc-poll-question {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.osc-poll .osc-poll-question .osc-poll-question-buttons {
+  margin-top: 30px;
+}
+.osc-poll ul.osc-choices {
+  list-style-type: none;
+  margin: 10px 0 40px 0;
+  padding: 0;
+}
+.osc-poll ul.osc-choices li {
+  margin: 0;
+  padding: 15px 0;
+}
+.osc-poll ul.osc-choices h4 {
+  margin: 0;
+}
+.osc-poll ul.osc-choices .osc-choice-default .osc-choice-bar {
+  position: relative;
+  height: 22px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  background-color: #e5e5e5;
+  overflow: hidden;
+}
+.osc-poll ul.osc-choices .osc-choice-default .osc-choice-bar .osc-choice-bar-progress {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 22px;
+  background-color: #bed200;
+  border-radius-top-left: 7px;
+}
+.osc-poll ul.osc-choices .osc-choice-default .osc-choice-bar.osc-with-percentage {
+  width: calc(100% - 55px);
+  float: left;
+}
+.osc-poll ul.osc-choices .osc-choice-default .osc-percentage {
+  float: left;
+  width: 55px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.osc-poll .osc-editbuttons {
+  float: right;
+  width: 220px;
+}
+.osc-poll .osc-editbuttons .osc-editbutton {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .osc-poll .osc-editbuttons {
+    display: none;
+  }
+}
+.osc-poll .osc-vote-succeeded {
+  color: #00a03c;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.osc-form h2 {
+  margin: 20px 0;
+  padding: 0;
+  font-size: 29px;
+}
+.osc-form .osc-form-field {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-form .osc-form-field h3 {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 24px;
+}
+.osc-form .osc-form-field .osc-form-info,
+.osc-form .osc-form-field .osc-form-warning,
+.osc-form .osc-form-field .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-form .osc-form-field .osc-form-description {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.osc-form .osc-html-editor .osc-html-editor-content {
+  border: solid 1px #434343;
+  padding: 15px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons {
+  margin-bottom: 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  padding: 5px;
+  border: solid 1px #434343;
+  background-color: #eee;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-bold {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-bold.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-italic {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-italic.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-insertunorderedlist {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-insertunorderedlist.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-html-editor .osc-html-editor-buttons .osc-html-editor-button.osc-html-editor-button-createlink {
+  background-position: cover;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/button-createlink.svg);
+  background-position: 5px 5px;
+}
+.osc-form .osc-image-upload {
+  background-color: green;
+}
+.osc-form .osc-input-with-counter {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-form .osc-input-with-counter input,
+.osc-form .osc-input-with-counter textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info,
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info {
+  margin-left: 30px;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-error {
+  color: #ea1d25;
+}
+.osc-form .osc-input-with-counter .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-form .osc-radios .osc-radio-container {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.osc-form .osc-radios .osc-radio-container h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 1em !important;
+  line-height: 1em !important;
+  font-weight: bold !important;
+}
+.osc-form .osc-radios .osc-radio-container input[type="radio"] {
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+.osc-form .osc-radios .osc-radio-container .osc-radio-input {
+  position: relative;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border: solid 1px #767676;
+  border-radius: 12px;
+  background-color: white;
+}
+.osc-form .osc-radios .osc-radio-container .osc-radio-input.osc-radio-input-checked:after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 0px;
+  height: 0px;
+  border: solid 9px black;
+  border-radius: 9px;
+  content: '';
+}
+.osc-form .osc-radios .osc-radio-container .osc-radio-text {
+  float: left;
+  width: calc(100% - 37px);
+  margin-top: 3px;
+  line-height: 1.38;
+}
+.osc-form .osc-select select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+@media only screen and (max-width: 700px) {
+  .osc-form .osc-select select {
+    width: 100%;
+  }
+}
+.osc-form .osc-slider {
+  /* padding: 30px; */
+  position: relative;
+  height: 44px;
+  cursor: pointer;
+  /* For debugging */
+  /* border: solid 1px green; */
+  /* Slider track styling in background */
+  /* Styling of handle, based on https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 44px;
+  position: absolute;
+  margin: 0;
+}
+.osc-form .osc-slider .osc-slider-track-container {
+  position: absolute;
+  height: 42px;
+  left: 0;
+  right: 0;
+  /* pointer-events: none; */
+  /* For debugging */
+  /* border: solid 1px purple; */
+}
+.osc-form .osc-slider .osc-slider-track-container > div {
+  position: absolute;
+}
+.osc-form .osc-slider .osc-slider-track-dot-start {
+  width: 22px;
+  height: 22px;
+  background-color: #004699;
+  border-radius: 11px;
+}
+.osc-form .osc-slider .osc-slider-track-dot-end {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+.osc-form .osc-slider .osc-slider-track-dot-center {
+  margin: 11px auto 11px auto;
+  left: 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track-dot-left {
+  margin: 11px 0 11px 11px;
+  left: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+}
+.osc-form .osc-slider .osc-slider-track-dot-right {
+  margin: 11px 11px 11px 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track {
+  height: 2px;
+  left: 22px;
+  right: 22px;
+  /* width: 100%; */
+  background-color: #004699;
+  margin: 21px 0 21px 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress-container {
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  top: 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress {
+  height: 10px;
+  width: 50%;
+  background-color: #004699;
+  margin: 17px 0 17px 0;
+  left: 50%;
+  position: absolute;
+  transform-origin: left;
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 48px;
+  padding: 0;
+  top: -3px;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-lower {
+  background: transparent;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-upper {
+  background: transparent;
+}
+.osc-form .osc-slider input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+.osc-form .osc-slider input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  -webkit-appearance: none;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  box-sizing: border-box;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+.osc-form .osc-textinput input {
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #767676;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+.osc-form .osc-input-with-counter {
+  position: relative;
+  margin-bottom: 36px;
+}
+.osc-form .osc-input-with-counter input,
+.osc-form .osc-input-with-counter textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info,
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: relative;
+  margin: -16px 0 10px 0;
+  padding: 0;
+}
+.osc-form .osc-input-with-counter .osc-form-info {
+  margin-left: 30px;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-form .osc-input-with-counter .osc-form-warning,
+.osc-form .osc-input-with-counter .osc-form-error {
+  color: #ea1d25;
+}
+.osc-form .osc-input-with-counter .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-form .osc-select select {
+  background-position: center right 10px;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-down-black.svg);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 44px;
+  padding: 0 20px;
+  padding-right: 40px;
+  border: solid 1px #434343;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  background-color: white;
+}
+@media only screen and (max-width: 700px) {
+  .osc-form .osc-select select {
+    width: 100%;
+  }
+}
+.osc-form .osc-slider {
+  /* padding: 30px; */
+  position: relative;
+  height: 44px;
+  cursor: pointer;
+  /* For debugging */
+  /* border: solid 1px green; */
+  /* Slider track styling in background */
+  /* Styling of handle, based on https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 44px;
+  position: absolute;
+  margin: 0;
+}
+.osc-form .osc-slider .osc-slider-track-container {
+  position: absolute;
+  height: 42px;
+  left: 0;
+  right: 0;
+  /* pointer-events: none; */
+  /* For debugging */
+  /* border: solid 1px purple; */
+}
+.osc-form .osc-slider .osc-slider-track-container > div {
+  position: absolute;
+}
+.osc-form .osc-slider .osc-slider-track-dot-start {
+  width: 22px;
+  height: 22px;
+  background-color: #004699;
+  border-radius: 11px;
+}
+.osc-form .osc-slider .osc-slider-track-dot-end {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+.osc-form .osc-slider .osc-slider-track-dot-center {
+  margin: 11px auto 11px auto;
+  left: 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track-dot-left {
+  margin: 11px 0 11px 11px;
+  left: 0;
+  /* top: 0; */
+  /* bottom: 0; */
+}
+.osc-form .osc-slider .osc-slider-track-dot-right {
+  margin: 11px 11px 11px 0;
+  right: 0;
+}
+.osc-form .osc-slider .osc-slider-track {
+  height: 2px;
+  left: 22px;
+  right: 22px;
+  /* width: 100%; */
+  background-color: #004699;
+  margin: 21px 0 21px 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress-container {
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  top: 0;
+}
+.osc-form .osc-slider .osc-slider-track-progress {
+  height: 10px;
+  width: 50%;
+  background-color: #004699;
+  margin: 17px 0 17px 0;
+  left: 50%;
+  position: absolute;
+  transform-origin: left;
+}
+.osc-form .osc-slider .osc-slider-input-range {
+  height: 48px;
+  padding: 0;
+  top: -3px;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-lower {
+  background: transparent;
+}
+.osc-form .osc-slider .osc-slider-input-range::-ms-fill-upper {
+  background: transparent;
+}
+.osc-form .osc-slider input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+}
+.osc-form .osc-slider input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  -webkit-appearance: none;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-webkit-slider-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  box-sizing: border-box;
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-moz-range-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-white.svg);
+  height: 44px;
+  width: 44px;
+  background-color: #004699;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.osc-form .osc-slider input.osc-slider-untouched[type=range]::-ms-thumb {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chevron-left-right-blue.svg);
+  background-color: white;
+  border: solid 2px #004699;
+}
+.osc-form .osc-slider input[type=range]::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-range-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-ms-track {
+  cursor: pointer;
+}
+.osc-form .osc-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+.osc-form .osc-textarea textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #767676;
+  border-radius: 0;
+}
+.osc-form .osc-form-info {
+  margin-left: 30px;
+}
+.osc-form .osc-form-info::before {
+  background-position: 0px 0px;
+  background-size: 20px 22px;
+  background-repeat: no-repeat;
+  background-image: url(../images/infopin.svg);
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.osc-form .osc-form-warning,
+.osc-form .osc-form-error,
+.osc-form .osc-form-counter {
+  position: absolute;
+  font-size: 14px;
+  bottom: -35px;
+  margin-top: 2px;
+  color: #9a9a9a;
+}
+.osc-form .osc-form-warning,
+.osc-form .osc-form-error {
+  color: #ea1d25;
+}
+
+
+/*# sourceMappingURL=poll.css.map*/
